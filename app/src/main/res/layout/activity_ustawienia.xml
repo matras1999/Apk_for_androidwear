@@ -16,63 +16,57 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="160dp"
-            android:layout_height="149dp">
+            android:layout_height="180dp">
 
 
-            <ImageButton
+            <Button
                 android:id="@+id/StartButton"
                 android:layout_width="80dp"
                 android:layout_height="60dp"
-                android:layout_marginBottom="64dp"
-
-                android:onClick="goToMenuPage"
-                android:src="@android:drawable/ic_media_play"
+                android:layout_marginBottom="120dp"
+                android:text="JEYZK"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:ignore="SpeakableTextPresentCheck" />
 
-
-            <ImageButton
+            <Button
                 android:id="@+id/imageButton3"
                 android:layout_width="80dp"
                 android:layout_height="60dp"
-                android:layout_marginBottom="64dp"
-                android:onClick="goToMenuPage"
-                android:src="@android:drawable/ic_menu_info_details"
+                android:layout_marginBottom="120dp"
+                android:text="MOTYW"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.925"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/imageButton4"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:text="POWIADOMIENIA"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/StartButton"
+                app:layout_constraintVertical_bias="0.0"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageButton
                 android:id="@+id/BackButton"
-                android:layout_width="80dp"
+                android:layout_width="70dp"
                 android:layout_height="60dp"
+                android:onClick="GoBack"
                 android:src="@android:drawable/ic_menu_revert"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:onClick="GoToMain"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/StartButton"
-                app:layout_constraintVertical_bias="0.0"
-                tools:ignore="SpeakableTextPresentCheck" />
-
-            <ImageButton
-                android:id="@+id/SettingsButton"
-                android:layout_width="80dp"
-                android:layout_height="60dp"
-                android:src="@android:drawable/ic_menu_manage"
-                android:onClick="GoToSett"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.925"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/StartButton"
-                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintVertical_bias="1.0"
                 tools:ignore="SpeakableTextPresentCheck" />
 
 

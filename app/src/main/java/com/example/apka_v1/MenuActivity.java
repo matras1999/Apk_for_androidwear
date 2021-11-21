@@ -19,7 +19,8 @@ public class MenuActivity extends Activity {
         setContentView(R.layout.wejdz_menu);
 
     GoToStart();
-
+    GoToMain();
+    GoToSett();
     }
     private void GoToStart(){
         ImageButton StartButton = (ImageButton) findViewById(R.id.StartButton);
@@ -27,6 +28,26 @@ public class MenuActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuActivity.this, StartActivity.class));
+            }
+        });
+    }
+
+    private void GoToMain(){
+        ImageButton BackButton = (ImageButton) findViewById(R.id.BackButton);
+        BackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, MainActivity.class));
+            }
+        });
+    }
+
+    private void GoToSett(){
+        ImageButton SettingsButton = (ImageButton) findViewById(R.id.SettingsButton);
+        SettingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, UstawieniaActivity.class));
             }
         });
     }
