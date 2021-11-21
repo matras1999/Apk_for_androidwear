@@ -35,17 +35,18 @@
 
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/InfoButton"
                 android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:layout_marginBottom="64dp"
-                android:onClick="goToMenuPage"
+                android:onClick="GoToInfo"
                 android:src="@android:drawable/ic_menu_info_details"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.925"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="SpeakableTextPresentCheck"
+                tools:src="@android:drawable/ic_menu_view" />
 
             <ImageButton
                 android:id="@+id/BackButton"

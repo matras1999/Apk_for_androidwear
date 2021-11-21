@@ -21,6 +21,7 @@ public class MenuActivity extends Activity {
     GoToStart();
     GoToMain();
     GoToSett();
+    GoToInfo();
     }
     private void GoToStart(){
         ImageButton StartButton = (ImageButton) findViewById(R.id.StartButton);
@@ -48,6 +49,16 @@ public class MenuActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuActivity.this, UstawieniaActivity.class));
+            }
+        });
+    }
+
+    private void GoToInfo(){
+        ImageButton InfoButton = (ImageButton) findViewById(R.id.InfoButton);
+        InfoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, InfoActivity.class));
             }
         });
     }
