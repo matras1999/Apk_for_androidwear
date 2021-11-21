@@ -8,7 +8,7 @@ import android.widget.ImageButton;
 
 import com.example.apka_v1.databinding.ActivityMainBinding;
 
-public class MenuActivity extends Activity {
+public class StartActivity extends Activity {
     private ActivityMainBinding binding;
 
     @Override
@@ -16,17 +16,15 @@ public class MenuActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(R.layout.wejdz_menu);
-
-    GoToStart();
-
+        setContentView(R.layout.activity_start);
+        GoBack();
     }
-    private void GoToStart(){
-        ImageButton StartButton = (ImageButton) findViewById(R.id.StartButton);
+    private void GoBack(){
+        ImageButton StartButton = (ImageButton) findViewById(R.id.BackButton);
         StartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuActivity.this, StartActivity.class));
+                startActivity(new Intent(StartActivity.this, MenuActivity.class));
             }
         });
     }
