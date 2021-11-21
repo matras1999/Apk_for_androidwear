@@ -35,8 +35,9 @@
 
 
             <Button
-                android:id="@+id/imageButton3"
+                android:id="@+id/KcalButton"
                 android:text="KCAL"
+                android:onClick="GoToKcal"
                 android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:layout_marginBottom="64dp"
@@ -61,10 +62,11 @@
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
-                android:id="@+id/imageButton4"
+                android:id="@+id/ZdrowieButton"
                 android:layout_width="90dp"
                 android:layout_height="60dp"
                 android:text="ZDROWIE"
+                android:onClick="GoToZdrowie"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.925"
