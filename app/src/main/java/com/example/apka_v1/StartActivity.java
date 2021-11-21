@@ -18,6 +18,7 @@ public class StartActivity extends Activity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_start);
         GoBack();
+        GoMapa();
     }
     private void GoBack(){
         ImageButton StartButton = (ImageButton) findViewById(R.id.BackButton);
@@ -25,6 +26,16 @@ public class StartActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(StartActivity.this, MenuActivity.class));
+            }
+        });
+    }
+
+    private void GoMapa(){
+        ImageButton MapaButton = (ImageButton) findViewById(R.id.MapaButton);
+        MapaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StartActivity.this, MapsActivity.class));
             }
         });
     }
