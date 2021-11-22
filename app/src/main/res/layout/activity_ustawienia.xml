@@ -60,7 +60,7 @@
                 android:id="@+id/BackButton"
                 android:layout_width="70dp"
                 android:layout_height="60dp"
-                android:onClick="GoBack"
+                android:onClick="goBack"
                 android:src="@android:drawable/ic_menu_revert"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

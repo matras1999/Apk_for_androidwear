@@ -3,16 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Apka_andorid/app/src/main/res/layout/wejdz_menu.xml" value="0.61328125" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/activity_info.xml" value="1.1" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/activity_kcal.xml" value="0.9049479166666666" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/activity_main.xml" value="0.8502604166666666" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/activity_mapa.xml" value="1.0944444444444446" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/activity_maps.xml" value="0.9049479166666666" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/activity_start.xml" value="1.0" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/activity_ustawienia.xml" value="1.1" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/activity_zdrowie.xml" value="0.9049479166666666" />
-        <entry key="..\:/Users/Michas/AndroidStudioProjects/Apk_for_androidwear/app/src/main/res/layout/wejdz_menu.xml" value="1.1" />
+        <entry key="..\:/Apka_andorid/app/src/main/res/layout/activity_info.xml" value="0.546875" />
+        <entry key="..\:/Apka_andorid/app/src/main/res/layout/activity_kcal.xml" value="0.8697916666666666" />
+        <entry key="..\:/Apka_andorid/app/src/main/res/layout/activity_main.xml" value="0.9" />
+        <entry key="..\:/Apka_andorid/app/src/main/res/layout/activity_maps.xml" value="0.49444444444444446" />
+        <entry key="..\:/Apka_andorid/app/src/main/res/layout/activity_start.xml" value="0.75" />
+        <entry key="..\:/Apka_andorid/app/src/main/res/layout/wejdz_menu.xml" value="1.1" />
       </map>
     </option>
   </component>
@@ -21,12 +17,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="1.1" />
-      </ProjectState>
-    </option>
   </component>
 </project>

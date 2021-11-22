@@ -17,15 +17,9 @@ public class UstawieniaActivity extends Activity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_ustawienia);
-        GoBack();
     }
-    private void GoBack(){
-        ImageButton StartButton = (ImageButton) findViewById(R.id.BackButton);
-        StartButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(UstawieniaActivity.this, MenuActivity.class));
-            }
-        });
+
+    public void goBack(View view) {
+        startActivity(new Intent(UstawieniaActivity.this, MenuActivity.class));
     }
 }

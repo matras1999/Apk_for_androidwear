@@ -23,9 +23,7 @@ public class MainActivity extends Activity {
 
     }
 
-    public void goToMenuPage(View view)
-    {
+    public void goToMenuPage(View view) {
         startActivity(new Intent(MainActivity.this, MenuActivity.class));
-
     }
 }
