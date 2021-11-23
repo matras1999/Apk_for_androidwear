@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import com.example.apka_v1.databinding.ActivityMainBinding;
 
-public class JezykActivity extends Activity {
+public class MotywActivity extends Activity {
     private ActivityMainBinding binding;
 
     @Override
@@ -20,10 +20,10 @@ public class JezykActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(R.layout.activity_jezyk);
+        setContentView(R.layout.activity_motyw);
     }
     public void goBack(View view) {
-        startActivity(new Intent(JezykActivity.this, UstawieniaActivity.class));
+        startActivity(new Intent(MotywActivity.this, UstawieniaActivity.class));
     }
 
 

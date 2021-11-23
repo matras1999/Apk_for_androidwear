@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context=".MainActivity"
+    tools:context=".UstawieniaActivity"
     tools:deviceIds="wear">
 
     <FrameLayout
@@ -24,7 +24,8 @@
                 android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:layout_marginBottom="120dp"
-                android:text="JEYZK"
+                android:onClick="goWyborJezyka"
+                android:text="JĘZYK"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -36,6 +37,7 @@
                 android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:layout_marginBottom="120dp"
+                android:onClick="goWyborMotywu"
                 android:text="MOTYW"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -47,6 +49,7 @@
                 android:id="@+id/imageButton4"
                 android:layout_width="160dp"
                 android:layout_height="60dp"
+                android:onClick="goPowiadomienia"
                 android:text="POWIADOMIENIA"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

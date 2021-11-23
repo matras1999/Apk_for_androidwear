@@ -36,4 +36,5 @@ public class StartActivity extends Activity {
         startActivity(new Intent(StartActivity.this, ZdrowieActivity.class));
     }
 
+
 }
