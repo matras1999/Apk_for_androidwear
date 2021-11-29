@@ -29,7 +29,7 @@ public class StartActivity extends Activity {
     }
 
     public void goToKcal(View view) {
-        startActivity(new Intent(StartActivity.this, KcalActivity.class));
+        startActivity(new Intent(StartActivity.this, StepsActivity.class));
     }
 
     public void goToZdrowie(View view) {

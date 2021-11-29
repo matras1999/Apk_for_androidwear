@@ -4,6 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StepsActivity">
+    tools:context=".InfoActivity">
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="goBack"
+        android:src="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:id="@+id/textViewStepCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BYłO A NIMA"
+        android:translationX="30px"
+        android:translationY="130px"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
