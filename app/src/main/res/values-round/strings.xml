@@ -1,5 +1,5 @@
 <resources>
-    <string name="hello_world">Hello Round World!</string>
+    <string name="hello_world" translatable="false">Hello Round World!</string>
     <string-array name="numbers">
         <item>Polski</item>
         <item>Angielski</item>
