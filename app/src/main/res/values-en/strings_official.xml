@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
-    <string name="app_name" translatable="false">Apka_v1</string>
-
     <string name="kcal">Calories burned: xxxx kcal</string>
     <string name="jezyk_ustawienia">LANGUAGE</string>
     <string name="motyw_ustawienia">APPLICATION THEME</string>
@@ -23,6 +20,4 @@
     <string name="zdrowie_start">HEALTH</string>
     <string name="kcal_start">CALORIES</string>
     <string name="zdrowie">Heart rate is: 150 bpm</string>
-=======
->>>>>>> abf8e61 (zmiana jezykow)
 </resources>
