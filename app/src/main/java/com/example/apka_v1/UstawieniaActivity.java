@@ -10,6 +10,7 @@ import com.example.apka_v1.databinding.ActivityMainBinding;
 
 public class UstawieniaActivity extends Activity {
     private ActivityMainBinding binding;
+    private Object UstawieniaActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,15 +18,20 @@ public class UstawieniaActivity extends Activity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_ustawienia);
-        GoBack();
     }
-    private void GoBack(){
-        ImageButton StartButton = (ImageButton) findViewById(R.id.BackButton);
-        StartButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(UstawieniaActivity.this, MenuActivity.class));
-            }
-        });
+
+    public void goBack(View view) {
+        startActivity(new Intent(UstawieniaActivity.this, MenuActivity.class));
+    }
+
+    public void goWyborJezyka(View view) {
+        startActivity(new Intent(UstawieniaActivity.this, JezykActivity.class));
+    }
+
+    public void goWyborMotywu(View view) {
+        startActivity(new Intent(UstawieniaActivity.this, MotywActivity.class));
+    }
+    public void goPowiadomienia(View view) {
+        startActivity(new Intent(UstawieniaActivity.this, PowiadomieniaAcivity.class));
     }
 }

@@ -18,46 +18,23 @@ public class StartActivity extends Activity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_start);
-        GoBack();
-        GoMapa();
-        GoToKcal();
-        GoToZdrowie();
-    }
-    private void GoBack(){
-        ImageButton StartButton = (ImageButton) findViewById(R.id.BackButton);
-        StartButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(StartActivity.this, MenuActivity.class));
-            }
-        });
     }
 
-    private void GoMapa() {
-        ImageButton MapaButton = (ImageButton) findViewById(R.id.MapaButton);
-        MapaButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(StartActivity.this, MapsActivity.class));
-            }
-        });
+    public void goBack(View view) {
+        startActivity(new Intent(StartActivity.this, MenuActivity.class));
     }
-        private void GoToKcal(){
-            Button KcalButton = (Button) findViewById(R.id.KcalButton);
-            KcalButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivity(new Intent(StartActivity.this, KcalActivity.class));
-                }
-            });
+
+    public void goMapa(View view) {
+        startActivity(new Intent(StartActivity.this, MapsActivity.class));
     }
-    private void GoToZdrowie(){
-        Button ZdrowieButton = (Button) findViewById(R.id.ZdrowieButton);
-        ZdrowieButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(StartActivity.this, ZdrowieActivity.class));
-            }
-        });
+
+    public void goToKcal(View view) {
+        startActivity(new Intent(StartActivity.this, KcalActivity.class));
     }
+
+    public void goToZdrowie(View view) {
+        startActivity(new Intent(StartActivity.this, ZdrowieActivity.class));
+    }
+
+
 }

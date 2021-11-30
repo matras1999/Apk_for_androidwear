@@ -17,15 +17,10 @@ public class InfoActivity extends Activity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_info);
-        GoBack();
+
     }
-    private void GoBack(){
-        ImageButton StartButton = (ImageButton) findViewById(R.id.BackButton);
-        StartButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(InfoActivity.this, MenuActivity.class));
-            }
-        });
+
+    public void goBack(View view) {
+        startActivity(new Intent(InfoActivity.this, MenuActivity.class));
     }
 }

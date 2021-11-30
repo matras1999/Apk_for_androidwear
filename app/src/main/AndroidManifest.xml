@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.apka_v1">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.apka_v1"
+    tools:ignore="CoarseFineLocation">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the "MyLocation" functionality.
     -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <uses-feature android:name="android.hardware.type.watch" />
@@ -23,14 +24,7 @@
         <activity
             android:name=".KcalActivity"
             android:exported="false" />
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-        -->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -50,6 +44,12 @@
             android:exported="false" />
         <activity
             android:name=".StartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PowiadomieniaAcivity"
+            android:exported="false" />
+        <activity
+            android:name=".MotywActivity"
             android:exported="false" />
 
         <uses-library
