@@ -1,7 +1,0 @@
-<resources>
-    <string name="hello_world">Hello Round World!</string>
-    <string-array name="numbers">
-        <item>Polski</item>
-        <item>Angielski</item>
-    </string-array>
-</resources>

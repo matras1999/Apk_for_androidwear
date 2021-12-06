@@ -1,9 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Apka_v1</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
+    <string name="app_name" translatable="false">Apka_v1</string>
+
     <string name="hello_world" translatable="false">Hello Square World!</string>
     <string name="title_activity_maps" translatable="false">MapsActivity</string>
     <string name="zdrowie_start">ZDROWIE</string>
@@ -26,6 +24,4 @@
     <string name="info4">Trening4 Czas:hh;mm;ss</string>
     <string name="powiadomienia_wlacz">WŁĄCZ</string>
     <string name="zdrowie">Tętno wynosi:150 bpm</string>
-
-
 </resources>

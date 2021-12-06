@@ -22,11 +22,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tętno : 150bpm"
+        android:text="@string/zdrowie"
         android:translationX="100px"
         android:translationY="160px"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="80dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
