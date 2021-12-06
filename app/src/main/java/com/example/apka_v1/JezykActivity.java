@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import com.example.apka_v1.databinding.ActivityMainBinding;
 
-public class JezykActivity extends Activity {
+public class  JezykActivity extends Activity {
     private ActivityMainBinding binding;
 
     @Override
