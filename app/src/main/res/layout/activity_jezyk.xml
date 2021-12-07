@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00ACC1"
     tools:context=".JezykActivity">
 
     <ImageButton
@@ -22,21 +23,22 @@
         android:id="@+id/textView3"
         android:layout_width="142dp"
         android:layout_height="35dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="64dp"
         android:layout_marginTop="67dp"
         android:layout_marginBottom="148dp"
         android:text="@string/jezyk"
+        android:textColor="#040404"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="104dp"
         android:onClick="changeOnPolish"
         android:text="@string/jezyk_polski"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +48,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="104dp"
         android:onClick="changeOnEnglish"
         android:text="@string/jezyk_angielski"
         app:layout_constraintEnd_toEndOf="parent"
