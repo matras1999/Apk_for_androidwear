@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00ACC1"
     tools:context=".InfoActivity">
 
     <ImageButton
@@ -36,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50px"
                 android:text="@string/info1"
+                android:textColor="#020202"
                 android:textSize="20sp" />
 
             <TextView
@@ -43,6 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50px"
                 android:text="@string/info2"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <TextView
@@ -50,6 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50px"
                 android:text="@string/info3"
+                android:textColor="#020202"
                 android:textSize="20sp" />
 
             <TextView
@@ -57,6 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50px"
                 android:text="@string/info4"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
