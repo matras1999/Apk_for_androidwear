@@ -25,7 +25,7 @@
     <string name="info3">Trening3 Czas:hh;mm;ss</string>
     <string name="info4">Trening4 Czas:hh;mm;ss</string>
     <string name="powiadomienia_wlacz">WŁĄCZ</string>
-    <string name="zdrowie">Tętno wynosi:150 bpm</string>
+    <string name="zdrowie">   </string>
 
 
 </resources>

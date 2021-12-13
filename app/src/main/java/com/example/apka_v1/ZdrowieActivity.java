@@ -53,7 +53,7 @@ public class ZdrowieActivity extends Activity implements SensorEventListener {
 
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
-                System.out.println("DUPA");
+                System.out.println("coś");
         if (sensorEvent.sensor.getType() == Sensor.TYPE_HEART_RATE) {
             String msg = "" + (int)sensorEvent.values[0];
             mTextViewHeart.setText(msg);
