@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">Apka_v1</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world" translatable="false">Hello Square World!</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="zdrowie_start">ZDROWIE</string>
+    <string name="kcal_start">KALORIE</string>
+    <string name="kcal">Spalone kalorie: xxxx kcal</string>
+    <string name="jezyk_ustawienia">JĘZYK</string>
+    <string name="motyw_ustawienia">MOTYW</string>
+    <string name="powiadomienia_ustawienia">POWIADOMIENIA</string>
+    <string name="motyw">WYBIERZ MOTYW:</string>
+    <string name="motyw_jasny">JASNY</string>
+    <string name="motyw_ciemny">CIEMNY</string>
+    <string name="jezyk">WYBIERZ JĘZYK:</string>
+    <string name="jezyk_polski">POLSKI</string>
+    <string name="jezyk_angielski">ANGIELSKI</string>
+    <string name="powiadomienia">POWIADOMIENIA:</string>
+    <string name="powiadomienia_wylacz">WYŁĄCZ</string>
+    <string name="info1">Trening1 Czas:hh;mm;ss</string>
+    <string name="info2">Trening2 Czas:hh;mm;ss</string>
+    <string name="info3">Trening3 Czas:hh;mm;ss</string>
+    <string name="info4">Trening4 Czas:hh;mm;ss</string>
+    <string name="powiadomienia_wlacz">WŁĄCZ</string>
+    <string name="zdrowie">   </string>
+
+
+</resources>
