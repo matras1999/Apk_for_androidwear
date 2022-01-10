@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Apka_v1</string>
+    <string name="app_name" translatable="false">SHealth</string>
 
     <string name="hello_world" translatable="false">Hello Square World!</string>
     <string name="title_activity_maps" translatable="false">MapsActivity</string>
@@ -23,5 +23,5 @@
     <string name="info3">Trening3 Czas:hh;mm;ss</string>
     <string name="info4">Trening4 Czas:hh;mm;ss</string>
     <string name="powiadomienia_wlacz">WŁĄCZ</string>
-    <string name="zdrowie">Tętno wynosi:150 bpm</string>
+    <string name="zdrowie">Twoje tętno wynosi:</string>
 </resources>
