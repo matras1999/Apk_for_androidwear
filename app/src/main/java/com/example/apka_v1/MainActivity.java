@@ -9,6 +9,11 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+
 import com.example.apka_v1.databinding.ActivityMainBinding;
 
 import java.util.Locale;

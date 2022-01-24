@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00ACC1"
+    android:background="@color/mainBackground"
     tools:context=".PowiadomieniaAcivity">
 
     <Button
@@ -37,7 +37,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="48dp"
         android:text="@string/powiadomienia"
-        android:textColor="#000000"
+        android:textColor="@color/mainText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

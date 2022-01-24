@@ -1,0 +1,12 @@
+<resources>
+    <style name="MyAppThemee" parent="Theme.AppCompat.Light">
+
+
+        <item name="colorPrimary">@color/cardview_light_background</item>
+        <item name="colorPrimaryDark">@color/cardview_light_background</item>
+        <item name="colorAccent">@color/cardview_light_background</item>
+
+
+
+    </style>
+</resources>

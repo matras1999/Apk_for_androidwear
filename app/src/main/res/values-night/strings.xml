@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name" translatable="false">Apka_v1</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
@@ -25,7 +26,6 @@
     <string name="info4">Trening4 Czas:hh;mm;ss</string>
     <string name="powiadomienia_wlacz">WŁĄCZ</string>
     <string name="zdrowie">   </string>
-    <string name="app_name" translatable="false">SHealth</string>
 
 
 </resources>
